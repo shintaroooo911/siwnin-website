@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://siwninproductions.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://siwninproductions.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siwninproductions.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siwninproductions.com/"/>
+  </url>
+  <url>
+    <loc>https://siwninproductions.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://siwninproductions.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siwninproductions.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://siwninproductions.com/"/>
+  </url>
+  <url>
+    <loc>https://siwninproductions.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://siwninproductions.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siwninproductions.com/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://siwninproductions.com/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://siwninproductions.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://siwninproductions.com/en/privacy/"/>
+  </url>
+</urlset>
