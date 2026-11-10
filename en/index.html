@@ -34,7 +34,7 @@
 body{margin:0;background:#0B0D10}
 a{color:#F4F2EE;text-decoration:none}a:hover{opacity:0.75}
 img{display:block}
-@media (max-width: 760px){.sw-hero{grid-template-columns:1fr !important}.sw-stack{height:340px !important}.sw-head{grid-template-columns:1fr auto !important}.sw-head nav{grid-column:1 / -1;grid-row:2;justify-content:flex-start !important}.sw-svc{grid-template-columns:40px minmax(0,1fr) !important;row-gap:8px !important}.sw-svc p{grid-column:2}.sw-hero{margin-top:0 !important;min-height:0 !important}.sw-num{font-size:28px !important}}
+@media (max-width: 760px){.sw-hero{grid-template-columns:1fr !important}.sw-stack{height:340px !important}.sw-head{grid-template-columns:1fr auto !important}.sw-head nav{grid-column:1 / -1;grid-row:2;justify-content:flex-start !important}.sw-svc{grid-template-columns:40px minmax(0,1fr) !important;row-gap:8px !important}.sw-svc p{grid-column:2}.sw-hero{margin-top:0 !important;min-height:0 !important}.sw-num{font-size:28px !important}.sw-foot{grid-template-columns:1fr 1fr !important}.sw-foot>div:first-child{grid-column:1 / -1}}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"Siwnin Productions","url":"https://siwninproductions.com/","logo":"https://siwninproductions.com/siwnin-icon.png","email":"info@siwninproductions.com","areaServed":"JP","address":{"@type":"PostalAddress","addressLocality":"Tokyo","addressCountry":"JP"}}
@@ -192,18 +192,20 @@ img{display:block}
 
 
 <footer id="p-foot" style="padding: 0 clamp(16px, 2.5vw, 32px)">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.6; text-transform: uppercase">
-<div style="display: flex; flex-direction: column; gap: 4px"><a href="#p-top">Home</a><a href="#p-what">Services</a><a href="#p-work">Our work</a><a href="#p-how">How it works</a><span style="height: 16px"></span><br></div>
-<div style="display: flex; flex-direction: column; gap: 22px; max-width: 520px">
+<div class="sw-foot" style="max-width: 1280px; margin: 0 auto; padding-top: 48px; border-top: 1px solid #3A3F47; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 40px; font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.7">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 460px">
 <p style="margin: 0">We plan, book, promote and run music, cultural and international events in Tokyo, for brands, venues, embassies and organisations.</p>
-<p style="margin: 0">Got an event in mind? Tell us about it and we'll come back with a plan.</p>
+<p style="margin: 0; color: #A9ADB4">Got an event in mind? Tell us about it and we'll come back with a plan.</p>
+</div>
+<nav aria-label="Footer" style="display: flex; flex-direction: column; gap: 6px"><a href="#p-top" style="text-decoration: none">Home</a><a href="#p-what" style="text-decoration: none">Services</a><a href="#p-work" style="text-decoration: none">Our work</a><a href="#p-how" style="text-decoration: none">How it works</a></nav>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p style="margin: 0; color: #A9ADB4">Contact</p>
 <a href="mailto:info@siwninproductions.com?subject=Event%20enquiry" style="text-decoration: underline">info@siwninproductions.com</a>
 <a href="/en/privacy/" style="text-decoration: underline">Privacy policy</a>
-<p style="margin: 0">© 2026 Siwnin Productions · Designed by <a href="https://lander.co" target="_blank" rel="noopener" style="color: inherit; text-decoration: none; opacity: 1">lander.co</a></p>
 </div>
 </div>
 <div aria-hidden="true" style="margin: 48px 0 0; display: flex; justify-content: center; align-items: center; gap: clamp(16px, 2.4vw, 36px); flex-wrap: wrap"><img src="/assets/img/siwnin-icon.png" alt="" width="789" height="800" style="width: auto; height: clamp(72px, 9vw, 140px)"><img src="/assets/img/siwnin-wordmark.png" alt="" width="800" height="67" style="width: min(80vw, 760px); height: auto"></div>
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 14px 0 20px; font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase"><span>+ ( From Hokkaido ) ( Based in Tokyo ) ( Event production ) ( 2026 )</span></div>
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding: 14px 0 24px; font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; color: #A9ADB4"><span>© 2026 Siwnin Productions</span><span>+ ( From Hokkaido ) ( Based in Tokyo ) ( Event production ) ( 2026 )</span></div>
 </footer>
 </div>
 </body>
