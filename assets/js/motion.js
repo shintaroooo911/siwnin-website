@@ -55,7 +55,7 @@
   });
   strips.forEach(function (p, i) {
     var text = p.innerHTML;
-    p.innerHTML = '<span class="sw-mq-track">' + text + '　' + text + '　</span>';
+    p.innerHTML = '<span class="sw-mq-track">' + text + text + '</span>';
     if (i % 2) p.classList.add('sw-mq-rev');
   });
 
